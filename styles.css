@@ -6,11 +6,11 @@ body {
     height: 98%;
 }
 
-#content {
+.content {
     width: 800px;
     height: 98%;
-    margin: 0px auto;
-    padding-top: 0px;
+    margin: 0 auto;
+    padding-top: 0;
     padding-left: 15px;
     padding-right: 15px;
     -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
@@ -22,19 +22,13 @@ header {
     text-align: center;
 }
 
-hgroup {
-    background: url(img/Banner.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
-hgroup h1 {
+/*hgroup h1 {
     color: rgba(255, 255, 255, 0.8);
     font-family: serif;
     font-size: 44px;
     font-weight: bold;
     text-align: center;
-}
+}*/
 
 nav ul {
     border-top: double 3px #8e8e8e;
@@ -81,7 +75,7 @@ nav ul li a:focus {
     background: rgb(86, 122, 199);
 }
 
-#intro {
+.intro {
     height: 80px;
     margin: 0px 0px 0px;
     position: relative;
